@@ -1,0 +1,282 @@
+body
+{
+	background-color:#eeeeee;
+	margin:0 0 0 0;
+	color:#333333;
+}
+
+a
+{
+	color:#CC0099;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#CC0099;
+	text-decoration:none;
+}
+
+img
+{
+	border:0px;
+}
+
+.header1
+{
+	width:100%;
+	height:50px;
+	margin:0 0 0 0;
+	color:silver;
+	background-color: rgb(55,55,55);
+}
+
+.header2
+{
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	margin:0 0 0 0;
+	height: 45px;
+	background: none repeat scroll 0% 0% rgb(231, 231, 231);
+}
+
+.header2 h1
+{
+	margin: 5px 0 0 0;
+	color:purple;
+}
+
+.content
+{
+	width:600px;
+	margin:0 auto;
+	position:relative;
+}
+
+.content b
+{
+	color:purple;
+}
+
+.social
+{
+	position:absolute;
+	margin-top:0px;
+	right:0px;
+}
+
+.logo
+{
+	float:left;
+	margin-top:5px;
+}
+
+.login
+{
+	position:relative;
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid #ffeb7f;
+	height:40px;
+	width:600px;
+	padding:7px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background-color:#fff6c1;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFF6C1 0%, #FFF9DA 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFF6C1 0%, #FFF9DA 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFF6C1 0%, #FFF9DA 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF6C1), color-stop(1, #FFF9DA));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFF6C1 0%, #FFF9DA 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFF6C1 0%, #FFF9DA 100%);
+}
+
+.login .left
+{
+	margin-top:8px;
+	width:69%;
+	position:absolute;
+	color:purple;
+}
+
+.login .right
+{
+	margin-top:8px;
+	width:30%;
+	right:0px;
+	position:absolute;
+}
+
+.adone
+{
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid silver;
+	min-height:60px;
+	width:600px;
+	padding:5px 7px 0px 7px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background-color:#ffffff;
+}
+
+.advbottom
+{
+	position:relative;
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid silver;
+	min-height:265px;
+	width:600px;
+	padding:7px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background-color:#ffffff;
+}
+
+.advbottom .left
+{
+	position:absolute;
+}
+
+.advbottom .right
+{
+	right:5px;
+	position:absolute;
+}
+
+.lastvisitorstitle
+{
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid silver;
+	min-height:20px;
+	width:600px;
+	background-color:#bbbbbb;
+	padding:7px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-moz-border-top-right-radius:5px;
+}
+
+.lastvisitors
+{
+	margin: auto;
+	margin-top:0px;
+	border: 1px solid silver;
+	min-height:150px;
+	width:600px;
+	padding:7px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+	-moz-border-bottom-right-radius:5px;
+	background-color:#ffffff;
+}
+
+.footer
+{
+	position:relative;
+	margin: auto;
+	margin-top:20px;
+	margin-bottom:15px;
+	padding: 0px;
+	font-size:12px;
+	color:#909090;
+	width:600px;
+}
+
+.footer .line
+{
+	margin: auto;
+	border-top:1px solid silver;
+	padding:0px;	
+}
+
+.footer a
+{
+	color:#909090;
+	text-decoration:none;
+}
+
+.footer .left
+{
+	position:absolute;
+}
+
+.footer .right
+{
+	right:0px;
+	position:absolute;
+}
+
+.pagesTitle
+{
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid silver;
+	width:600px;
+	background-color:#bbbbbb;
+	padding:7px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-moz-border-top-right-radius:5px;
+}
+
+.pagesContent
+{
+	margin: auto;
+	margin-top:0px;
+	border: 1px solid silver;
+	width:600px;
+	padding:7px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+	-moz-border-bottom-right-radius:5px;
+	background-color:#ffffff;
+}
+
+.pagesContent h3
+{
+	font-weight:bold;
+	font-size:13px;
+	margin-bottom:3px;
+}
+.pagesContent p
+{
+	font-size:12px;
+	margin-top:0px;
+}
+
+.uList
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.uList img
+{
+	width: 34px;
+	border: none;
+	height: 34px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.liList
+{
+	width:36px;
+	margin-right:10px;
+	float:left;
+}
+

@@ -1,0 +1,9 @@
+<?php
+include_once("script/header1.php");
+include_once("script/header2.php");
+include_once("script/login.php");
+include_once("script/adone.php");
+include_once("script/visitorsTitleMain.php");
+include_once("script/visitors.php");
+include_once("script/adbottom.php");
+?>

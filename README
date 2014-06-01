@@ -1,0 +1,38 @@
+website-twitter-followers
+=========================
+
+Free Twitter Followers Website Script
+=====================================
+This script is a clone to Free twitter followers websites, such as:
+plusfollower.info
+hitfollow.info
+followback.info
+...
+
+Note:
+=====
+USE IT AT YOUR OWN RISK
+1- This Script is against Twitter TOS and is meant for educational purpose only. Using this script might get your domain name blacklisted by twitter.
+2- Using this script might get your twitter application suspended, and might risk your twitter account.
+3- Reminder: Twitter suspends accounts for aggressive following.
+USE IT AT YOUR OWN RISK
+
+Installing:
+===========
+1- Import db.sql from script/config
+2- Configure your db settings in script/config/config.php
+3- Create a twitter account and application, generate a consumer key and consume rsecret, add them in script/config/twConfig.php
+4- Edit the following files:
+process.php - line 156-165
+script/adbottom.php
+script/adone.php
+script/bodyFaq.php
+script/bodyPrivacy.php
+script/bodyTerms.php
+script/footer.php
+script/head.php
+script/header1.php
+
+Demo:
+=====
+Demo of how the script looks like can be found at speedfollow.com (The domain is blacklisted by twitter, so you can't test the script)
